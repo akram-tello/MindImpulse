@@ -1,0 +1,11 @@
+{% extends "plugins/admin/templates/partials/base.html" %}
+
+{% block admin_navigation_top_secondary %}
+    {% if isCurrentUrl('admin.fieldsets.index') or
+    isCurrentUrl('admin.fieldsets.edit') or
+    isCurrentUrl('admin.fieldsets.rename') or
+    isCurrentUrl('admin.fieldsets.add') %}
+        /
+        <span class="pr-1 pl-1">{{ id }}</span>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,37 @@
+{
+    "name": "flextype-plugins/acl",
+    "type": "project",
+    "description": "ACL plugin for Flextype.",
+    "keywords": ["acl", "plugin", "flextype", "php", "html"],
+    "homepage": "https://github.com/flextype-plugins/acl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Romanenko",
+            "email": "support@flextype.org",
+            "homepage": "https://flextype.org"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/flextype-plugins/acl/issues"
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "ext-json": "*",
+        "flextype-components/arrays" : "3.0.1",
+        "flextype-components/filesystem": "2.0.8"
+    },
+    "config": {
+        "apcu-autoloader": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "app",
+            "middlewares"
+        ]
+    }
+}

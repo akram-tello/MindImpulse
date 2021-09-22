@@ -1,0 +1,5 @@
+{% extends "plugins/accounts-admin/templates/partials/base.html" %}
+
+{% block content %}
+    {{ flextype.form.render(flextype.serializers.yaml.decode(filesystem().file(PATH_PROJECT ~ '/fieldsets/accounts-admin-edit.yaml').get()), profile)|raw }}
+{% endblock %}

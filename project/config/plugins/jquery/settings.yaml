@@ -1,0 +1,9 @@
+# enabled: true or false to disable the plugin
+enabled: true
+
+# jquery plugin priority
+priority: 1
+
+# place to load
+load_on_site: true
+load_on_admin: true

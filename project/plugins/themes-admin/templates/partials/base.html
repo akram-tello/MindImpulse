@@ -1,0 +1,25 @@
+{% extends "plugins/admin/templates/partials/base.html" %}
+
+{% block admin_navigation_top_secondary %}
+    {% if isCurrentUrl('admin.themes.index') or
+    isCurrentUrl('admin.themes.templates.index') or
+    isCurrentUrl('admin.themes.templates.edit') or
+    isCurrentUrl('admin.themes.templates.rename') or
+    isCurrentUrl('admin.themes.templates.add') %}
+        /
+        <a href="{{ urlFor('admin.themes.templates.index') }}?theme={{ theme }}">
+            <span class="pr-1 pl-1">{{ theme }}</span></a>
+        {% if id %}
+            /
+            <span class="pr-1 pl-1">{{ id }}</span>
+        {% endif %}
+    {% endif %}
+
+    {% if isCurrentUrl('admin.themes.information') or
+    isCurrentUrl('admin.themes.settings') %}
+        {% if id %}
+            /
+            <span class="pr-1 pl-1">{{ id }}</span>
+        {% endif %}
+    {% endif %}
+{% endblock %}

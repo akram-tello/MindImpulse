@@ -1,0 +1,30 @@
+{
+    "name": "flextype-plugins/phpmailer",
+    "type": "project",
+    "description": "PHP Mailer for Flextype.",
+    "keywords": ["phpmailer", "plugin", "flextype", "php"],
+    "homepage": "https://github.com/flextype-plugins/phpmailer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Romanenko",
+            "email": "sergey.romanenko@flextype.org",
+            "homepage": "https://flextype.org"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/flextype-plugins/phpmailer/issues"
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "ext-json": "*",
+        "phpmailer/phpmailer": "~6.1"
+    },
+    "config": {
+        "apcu-autoloader": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "flextype-plugins/themes-admin",
+    "type": "project",
+    "description": "Themes Admin plugin to manage site themes for the website frontend.",
+    "keywords": ["themes", "admin", "plugin", "manager", "panel", "flextype", "php", "html"],
+    "homepage": "https://github.com/flextype-plugins/themes-admin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Romanenko",
+            "email": "sergey.romanenko@flextype.org",
+            "homepage": "https://flextype.org"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/flextype-plugins/themes-admin/issues"
+    },
+    "require": {
+        "php": ">=7.4.0",
+        "flextype-components/arrays" : "3.0.1",
+        "flextype-components/filesystem": "2.0.8"
+    },
+    "config": {
+        "apcu-autoloader": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.4.0"
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "app"
+        ]
+    }
+}

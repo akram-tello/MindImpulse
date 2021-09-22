@@ -1,0 +1,16 @@
+name: jQuery
+version: 1.9.0
+description: jQuery plugin for Flextype.
+icon:
+  name: js-square
+  set: "fontawesome|brands"
+author:
+  name: Sergey Romanenko
+  email: sergey.romanenko@flextype.org
+  url: https://flextype.org
+homepage: https://github.com/flextype-plugins/jquery
+bugs: https://github.com/flextype-plugins/jquery/issues
+license: MIT
+
+dependencies:
+  flextype: 0.9.16

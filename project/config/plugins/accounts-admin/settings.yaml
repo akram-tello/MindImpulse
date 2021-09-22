@@ -1,0 +1,6 @@
+enabled: true
+priority: 90
+supper_admin_registered: true
+from:
+  name: Flextype
+  email: support@flextype.org

@@ -1,0 +1,23 @@
+{
+  "name": "jQuery",
+  "version": "1.9.0",
+  "description": "jQuery plugin for Flextype.",
+  "homepage": "https://flextype.org",
+  "author": "Sergey Romanenko",
+  "license": "MIT",
+  "keywords": [
+    "flextype",
+    "cms",
+    "flat cms",
+    "flatfile cms",
+    "plugin",
+    "icon"
+  ],
+  "bugs": {
+    "url": "https://github.com/flextype-plugins/jquery/issues"
+  },
+  "dependencies": {
+    "gulp": "4.0.2",
+    "jquery": "^3.4.1"
+  }
+}
