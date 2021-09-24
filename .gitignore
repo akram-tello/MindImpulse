@@ -1,7 +1,5 @@
 # Global
 .composer
-composer.lock
-package-lock.json
 vendor/
 node_modules/
 dist/
