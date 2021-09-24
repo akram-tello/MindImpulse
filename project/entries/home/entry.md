@@ -14,4 +14,4 @@ description: ''
 visibility: visible
 routable: true
 ---
-<h1 style="text-align: center;">Welcome to Rachis System website!<br> WE ARE BUILD SOME AWESOME STAFF..</h1><p style="text-align: center;" class="lead">&nbsp;you can start view the content and customising your site in <a href="./admin">Admin panel</a>.</p>
+<h1 style="text-align: center;">Welcome to Rachis System website!<br> WE ARE BUILDING SOME AWESOME STAFF..</h1><p style="text-align: center;" class="lead">&nbsp;you can start view the content and customising your site in <a href="./admin">Admin panel</a>.</p>
