@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ flextype.registry.get('flextype.settings.locale') }}">
+<html lang="{{ flextype.registry.get('flextype.settings.locale') }}" class="js">
     <head>
         {% block head %}
             <meta charset="{{ flextype.registry.get('flextype.settings.charset')|lower }}">
@@ -7,14 +7,12 @@
             <meta name="description" content="{% if entry.description %}{{ entry.description }}{% else %}{{ flextype.registry.get('plugins.site.settings.description') }}{% endif %}">
             <meta name="keywords" content="{% if entry.keywords %}{{ entry.keywords }}{% else %}{{ flextype.registry.get('plugins.site.settings.keywords') }}{% endif %}">
             <meta name="robots" content="{% if entry.robots %}{{ entry.robots }}{% else %}{{ flextype.registry.get('plugins.site.settings.robots') }}{% endif %}">
-            <meta name="generator" content="Powered by Flextype"/>
+            <meta name="generator" content="Powered by Rachis"/>
 
             {% do flextype.emitter.emit('onThemeMeta') %}
 
             <title>
-                {% if entry.title %}{{ entry.title|e('html') }}
-                    |
-                {% endif %}{{ flextype.registry.get('plugins.site.settings.title')|e('html') }}</title>
+                {% if entry.slug == 'home' %}Mind Impulse - slogn {% else %}{% if entry.title %}{{ entry.title|e('html') }} -{% endif %} {{ flextype.registry.get('plugins.site.settings.title')|e('html') }}{% endif %}</title>
 
             <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
@@ -24,60 +22,165 @@
             {% if flextype.registry.has('assets.site.css') %}
                 {% for css in flextype.registry.get('assets.site.css') %}
                     <link href="{{ url() }}/{{ css }}" rel="stylesheet">
+
+                    <!-- Bundle and Base CSS third-party-styles -->
+                    <link href="{{baseUrl()}}/project/themes/noir/assets/third-party-styles/css/vendor.bundle.css?ver=1930" rel="stylesheet">
+                    <link rel="stylesheet" href="{{baseUrl()}}/project/themes/noir/assets/third-party-styles/css/style-azalea.css?ver=1930" id="changeTheme" />
+                    <!-- Extra CSS -->
+                    <link rel="stylesheet" href="{{baseUrl()}}/project/themes/noir/assets/third-party-styles/css/theme.css?ver=1930" />
                 {% endfor %}
             {% endif %}
 
             {% do flextype.emitter.emit('onThemeHeader') %}
         {% endblock %}
     </head>
-    <body>
-        <nav class="bg-black text-white">
-            <div class="container mx-auto pl-16 pr-16 pt-6 pb-6 clearfix">
-                <div class="w-full lg:w-2/12
-                          text-center lg:text-left
-                          float-left text-white py-2 uppercase tracking-wide">
-                    <a href="{{ url() }}" class="w-full lg:w-2/12 text-center text-base no-underline">{{ flextype.registry.get('plugins.site.settings.title')|e('html') }}</a>
-                </div>
-                <div class="w-full float-right lg:w-9/12 font-noirpro-semibold">
-                    <div class="text-right p-2">
-                        {% for item in flextype.entries.fetch('', {'collection': true}).sortBy('menu_item_order', 'ASC').all() %}
-                            {% if item.menu_item_title %}
-                                <a
-                                    href="{{ url() }}/{{ item.menu_item_url }}"
-                                    class="uppercase
-                                  relative
-                                  block
-                                  text-white
-                                  text-center
-                                  no-underline
-                                  mr-0
-                                  border-black
-                                  border-b-2
-                                  hover:border-white
-                                  lg:inline-block
-                                  {% if loop.last %}lg:mr-0{% else %}lg:mr-4{% endif %}
-                                  {% if item.menu_item_url in entry.id %}border-white{% endif %}">
-                                    {{ item.menu_item_title }}
-                                </a>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-        </nav>
 
-        <main class="container mx-auto">
-            <section id="content" class="p-16">
-                {% block content %}{% endblock %}
-            </section>
-            <footer class="text-center pl-16 pr-16 pt-6 pb-16">
-                {% block footer %}
-                    <div class="text-xs uppercase">
-                        {{ __('site_powered_by_flextype')|raw }}
+    <body class="nk-body body-wider bg-theme">
+        <div class="nk-wrap">
+            <header class="nk-header page-header is-transparent is-sticky is-dark" id="header">
+                <!-- Header @s -->
+                <div class="header-main">
+                    <div class="header-container container container-xxl">
+                        <div class="header-wrap">
+                            <!-- Logo @s -->
+                            <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
+                                <a href="./" class="logo-link">
+                                    <img class="logo-dark" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo" />
+                                    <img class="logo-light" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo" />
+                                </a>
+                            </div>
+
+                            <!-- Menu Toogle @s -->
+                            <div class="header-nav-toggle">
+                                <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                    <div class="toggle-line">
+                                        <span></span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Menu @s -->
+                            <div class="header-navbar animated" data-animate="fadeInDown" data-delay=".6">
+                                <nav class="header-menu" id="header-menu">
+                                    <ul class="menu">
+                                        <li class="menu-item has-sub">
+                                            <a class="menu-link nav-link menu-toggle" href="#">Company</a>
+                                            <div class="menu-sub menu-drop menu-mega">
+                                                <div class="menu-mega-innr">
+                                                    <ul class="menu-mega-list">
+                                                        <li class="menu-item"><a href="#">Who We Are</a></li>
+                                                        <li class="menu-item"><a href="#">Career</a></li>
+                                                        <li class="menu-item"><a href="#">Events </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item has-sub">
+                                            <a class="menu-link nav-link menu-toggle" href="#">Services</a>
+                                            <ul class="menu-sub menu-drop">
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">Mobile App Development</a>
+                                                    <ul class="menu-sub menu-drop">
+                                                        <li class="menu-item"><a class="menu-link nav-link" href="#">IOS Development</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">Web And CMS Development</a>
+                                                    <ul class="menu-sub menu-drop">
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">E-Commerce<span class="badge badge-xs badge-info">NEW</span></a>
+                                                    <ul class="menu-sub menu-drop">
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">Mobile Game Development<span class="badge badge-xs badge-info">NEW</span></a>
+                                                    <ul class="menu-sub menu-drop">
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">IT Services</a>
+                                                    <ul class="menu-sub menu-drop">
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">Hire Dedicated Developers</a>
+                                                    <ul class="menu-sub menu-drop">
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">TV App Development</a>
+                                                    <ul class="menu-sub menu-drop">
+                                                        
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item has-sub">
+                                                    <a class="menu-link nav-link menu-toggle" href="#">Blockchain Technology</a>
+                                                    <ul class="menu-sub menu-drop">
+                                                        
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link nav-link menu-toggle" href="#">Case Study </a>
+                                        </li>
+                                        <li class="menu-item has-sub">
+                                            <a class="menu-link nav-link menu-toggle" href="#">Resources</a>
+                                            <div class="menu-sub menu-drop menu-mega">
+                                                <div class="menu-mega-innr">
+                                                    <ul class="menu-mega-list">
+                                                        <li class="menu-item"><a href="#">Blog</a></li>
+                                                        <li class="menu-item"><a href="#"> Research </a></li>
+                                                        <li class="menu-item"><a href="#"> Media Coverage </a></li>
+                                                        <li class="menu-item"><a href="#"> Tech News </a></li>
+                                                        <li class="menu-item"><a href="#"> Whitepaper </a></li>
+                                                        <li class="menu-item"><a href="#"> Download-Brochure </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link nav-link menu-toggle" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="menu-btns">
+                                        <li>
+                                            <a href="#" class="btn btn-md btn-thin btn-outline btn-auto btn-primary btn-round no-change"><span>Get A Free Quote</span></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- .header-navbar @e -->
+                        </div>
                     </div>
-                {% endblock %}
-            </footer>
-        </main>
+                </div>
+                <!-- Place Particle Js -->
+                <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"></div>
+            </header>
+        </div>
+    </body>
+
+    
+    <main>
+        <section id="content" class="p-16">
+            {% block content %}{% endblock %}
+        </section>
+    </main>
+
+
+        <footer class="text-center pl-16 pr-16 pt-6 pb-16">
+            <!-- {% block footer %}
+                <div class="text-xs uppercase">
+                    {{ __('site_powered_by_flextype')|raw }}
+                </div>
+            {% endblock %} -->
+        </footer>
 
         {% if flextype.registry.has('assets.site.js') %}
             {% for js in flextype.registry.get('assets.site.js') %}
@@ -88,5 +191,15 @@
         {% endif %}
 
         {% do flextype.emitter.emit('onThemeTail') %}
+
+         <!-- preloader -->
+         <div class="preloader preloader-alt no-split">
+            <span class="spinner spinner-alt"><img class="spinner-brand" src="images/logo-s2-white.png" alt="" /></span>
+        </div>
+
+         <!-- JavaScript -->
+         <script type="text/javascript" src="{{baseUrl()}}/project/themes/noir/assets/third-party-styles/js/jquery.bundle.js?ver=1930"></script>
+         <script type="text/javascript" src="{{baseUrl()}}/project/themes/noir/assets/third-party-styles/js/scripts.js?ver=1930"></script>
+         <script type="text/javascript" src="{{baseUrl()}}/project/themes/noir/assets/third-party-styles/js/charts.js?ver=1930"></script>
     </body>
 </html>
