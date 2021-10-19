@@ -1,2 +1,2 @@
-MindImpulse
-# provide new innovative technological solutions
+# MindImpulse
+provide new innovative technological solutions
