@@ -7,7 +7,7 @@
             <meta name="description" content="{% if entry.description %}{{ entry.description }}{% else %}{{ flextype.registry.get('plugins.site.settings.description') }}{% endif %}">
             <meta name="keywords" content="{% if entry.keywords %}{{ entry.keywords }}{% else %}{{ flextype.registry.get('plugins.site.settings.keywords') }}{% endif %}">
             <meta name="robots" content="{% if entry.robots %}{{ entry.robots }}{% else %}{{ flextype.registry.get('plugins.site.settings.robots') }}{% endif %}">
-            <meta name="generator" content="Powered by Rachis"/>
+            <meta name="generator" content="Powered by MindImpulse"/>
 
             {% do flextype.emitter.emit('onThemeMeta') %}
 
