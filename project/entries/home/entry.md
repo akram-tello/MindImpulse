@@ -14,6 +14,50 @@ description: ""
 visibility: visible
 routable: true
 ---
+<!-- Load jQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
+<!-- JS Functions -->
+<script>
+$(document).ready(function(){
+	$("#step-1").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+$(document).ready(function(){
+	$("#step-2").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+$(document).ready(function(){
+	$("#step-3").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+$(document).ready(function(){
+	$("#step-4").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+$(document).ready(function(){
+	$("#step-5").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+$(document).ready(function(){
+	$("#step-6").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+$(document).ready(function(){
+	$("#step-7").hover(function(){
+		$(this).toggleClass("text-yellow");
+	});
+});
+</script>
 
 <style>
     .bg-blue{
@@ -30,6 +74,27 @@ routable: true
         border-radius: 50%;
         margin-right: 20px;
         position: relative;
+    }
+    .text-yellow{
+        color: #f8aa38 !important;
+    }
+    .text-blue-muted{
+        color: #305082 !important;
+    }
+    .text-light-blue{
+        color: #97afd5 !important;
+    }
+    .text-blue{
+        color: #007bff !important;
+    }
+    .text-red{
+        color: #f42f54 !important;
+    }
+    .text-gray{
+        color: #53555a !important;
+    }
+    .title-sm{
+        font-size: 1rem !important;
     }
 </style>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -291,7 +356,7 @@ routable: true
                         </div>
                         </div>
                         <div class="feature-text feature-text-s1">
-                            <span class="title-xs-alt title-mid">PHP Web Development</span>
+                            <span class="title-xs-alt title-mid">Web And CMS Development</span>
                         </div>
                     </div>
                 </div><!-- .col -->
@@ -446,11 +511,181 @@ routable: true
                         </div>
                         </div>
                         <div class="feature-text feature-text-s1">
-                            <span class="title-xs-alt title-mid">Dedicated Resources</span>
+                            <span class="title-xs-alt title-mid">Staff Augmentation</span>
                         </div>
                     </div>
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .block @e -->
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <!-- Section Head @s -->
+        <div class="section-head text-center wide-auto-sm">
+            <h4 class="title title-xl animated fadeInUp text-light-blue">Process We Follow</h4>
+        </div><!-- .section-head @e -->
+        <!-- Block @s -->
+        <div class="nk-block">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="roadmap-all mgb-m50">
+                        <div class="roadmap-wrap roadmap-wrap-done roadmap-wrap-s1 mb-0">
+                            <div class="row no-gutters">
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1 text-blue" style="color:#305082">01</span>
+                                                <span id="step-1" class="roadmap-title roadmap-title-s1">Requirement Gathering</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1 text-blue" style="color:#305082">02</span>
+                                                <span id="step-2" class="roadmap-title roadmap-title-s1">UI/UX Design</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roadmap-wrap roadmap-wrap-done roadmap-wrap-s1 mb-0">
+                            <div class="row flex-row-reverse no-gutters">
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1 text-blue" style="color:#305082">03</span>
+                                                <span id="step-3" class="roadmap-title roadmap-title-s1"> Prototype</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1 text-blue" style="color:#305082">04</span>
+                                                <span id="step-4" class="roadmap-title roadmap-title-s1">App Development</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1 text-blue" style="color:#305082">05</span>
+                                                <span id="step-5" class="roadmap-title roadmap-title-s1">Quality Assurance</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roadmap-wrap roadmap-wrap-s1 mb-0">
+                            <div class="row no-gutters">
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1 text-blue">06</span>
+                                                <span id="step-6" class="roadmap-title roadmap-title-s1"> Deployment</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span id="step-num" class="roadmap-time roadmap-time-s1 text-blue">07</span>
+                                                <span id="step-7" class="roadmap-title roadmap-title-s1">Support & Maintenance</span>
+                                            </div>
+                                            <!-- <ul class="roadmap-step-list-s1">
+                                                <li>Integration with Private Chains, More Coin in Wallet</li>
+                                                <li>New services offered by members or business</li>
+                                            </ul> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .block @e -->
+    </div>
+</section>
+<section class="section has-ovm">
+    <div class="container">
+            <!-- Section Head @s -->
+            <div class="section-head text-center wide-sm animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="visibility: visible; animation-delay: 0.1s;">
+                <h2 class="title title-dark title-xl text-blue">Who We Work With</h2>
+                <p class="mt-0 text-light-blue">As a leading mobile app development company in Malaysia and Syria, we worked with lots businesses either it is a start-up or enterprise and delivers the best solution in the industry. At MindImpulse, we offer a broad range of app development services based on business requirements.</p>
+            </div>
+            <!-- Section Head @s -->
+        <div class="nk-block">
+            <div class="row">
+                <div class="col-lg-4 col-xl-3 col-sm-4 col-12">
+                    <div class="feature feature-center card animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">
+                        <div class="feature-text feature-currency">
+                            <h3 class="title title-sm">Start Up Business</h3>
+                            <p class="text-xs text-gray">With a fresh dynamic, we made startup ideas into a creative reality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-sm-4 col-12">
+                    <div class="feature feature-center card animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">
+                        <div class="feature-text feature-currency">
+                            <h3 class="title title-sm">Small & Medium Business</h3>
+                            <p class="text-xs text-gray">Small and Medium businesses have limited sources, but have multiple ways. We flourish their ways and provide the work they need.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-sm-4 col-12">
+                    <div class="feature feature-center card animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="feature-text feature-currency">
+                            <h3 class="title title-sm">Enterprise business</h3>
+                            <p class="text-xs text-gray">We meet client's requirements and present seamless development for enterprise businesses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-sm-4 col-12">
+                    <div class="feature feature-center card animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                        <div class="feature-text feature-currency">
+                            <h3 class="title title-sm">Work with Agencies</h3>
+                            <p class="text-xs text-gray">Agencies have different approaches and face different challenges now and then. We overcome that and provide outstanding services.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-xl-2 col-sm-4 col-6">
+                    <div class="feature feature-center card animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
+                        <div class="feature-icon feature-icon-dash mb-1">
+                            <em class="icon icon-md ikon ikon-dash"></em>
+                        </div>
+                        <div class="feature-text feature-currency">
+                            <h3 class="title title-sm">Logistics & Distribution</h3>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-4 col-xl-2 col-sm-4 col-6">
+                    <div class="feature feature-center card animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
+                        <div class="feature-icon feature-icon-monero mb-1">
+                            <em class="icon icon-md ikon ikon-monero"></em>
+                        </div>
+                        <div class="feature-text feature-currency">
+                            <h3 class="title title-sm">Real Estate</h3>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
     </div>
 </section>

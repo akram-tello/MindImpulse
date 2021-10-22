@@ -4701,7 +4701,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-s1-alt.roadmap-current:before { left: 0px; border-left-width: 3px; border-left-style: solid; }
 
-.roadmap-s1.roadmap-done:before, .roadmap-s1.roadmap-done:after { border-color: #f42f54; }
+.roadmap-s1.roadmap-done:before, .roadmap-s1.roadmap-done:after { border-color: #97afd5; }
 
 .roadmap-s1.roadmap-current:before { border-color: #f42f54; }
 
@@ -5108,7 +5108,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .roadmap-wrap-s1-alt:after { height: calc(100% + 1px); border-width: 1px; border-style: dashed; top: 42px; }
   .tc-light .roadmap-wrap-s1-alt:after { border-color: rgba(255, 255, 255, 0.3); }
   .roadmap-wrap-s1-alt.roadmap-wrap-done:after { height: calc(100% + 3px); border-width: 3px; border-style: solid; top: 41px; }
-  .roadmap-wrap-s1.roadmap-wrap-done:after { border-color: #f42f54; }
+  .roadmap-wrap-s1.roadmap-wrap-done:after { border-color: #97afd5; }
   .roadmap-wrap-s1:nth-child(odd):after { right: -15px; border-radius: 0 20px 20px 0; border-left-width: 0; }
   .roadmap-wrap-s1:nth-child(even):after { left: -15px; border-radius: 20px 0px 0px 20px; border-right-width: 0; }
   .roadmap-wrap-s1:last-child:after { display: none; }
