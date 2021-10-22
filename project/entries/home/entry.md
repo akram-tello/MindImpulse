@@ -14,7 +14,11 @@ description: ""
 visibility: visible
 routable: true
 ---
-
+<style>
+    .bg-blue{
+        background-color: #c1d9ff !important;
+    }
+</style>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -62,7 +66,7 @@ routable: true
             <div class="row justify-content-center text-center">
                 <div class="col-lg-6">
                     <div class="section-head section-head-s2">
-                        <h2 class="title title-xl animated fadeInUp" data-animate="fadeInUp" data-delay="0.1" title="Mindimpulse syestem" style="visibility: visible; animation-delay: 0.1s; color:#97afd5">Mindimpulse syestem</h2>
+                        <h2 class="title title-xl animated fadeInUp" data-animate="fadeInUp" data-delay="0.1" title="Mindimpulse" style="visibility: visible; animation-delay: 0.1s; color:#97afd5; font-size:4rem">Mindimpulse</h2>
                         <h6 style="color:#007bff; margin-top:-1.4rem">Technology for all </h6>
                     </div>
                 </div>
@@ -97,7 +101,7 @@ routable: true
                                 <em class="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div class="feature-text">
-                                <p>Intense engineering research on the feasible solutions to modern world problems.</p>
+                                <p style="color:#9cb1d8">Intense engineering research on the feasible solutions to modern world problems.</p>
                             </div>
                         </div>
                         <div class="feature feature-inline animated fadeInUp mb-0" data-animate="fadeInUp" data-delay="0.5" style="visibility: visible; animation-delay: 0.5s;">
@@ -105,7 +109,7 @@ routable: true
                                 <em class="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div class="feature-text">
-                                <p>Consultation services and collaborations with leading researchers in the industry.</p>
+                                <p style="color:#9cb1d8">Consultation services and collaborations with leading researchers in the industry.</p>
                             </div>
                         </div>
                         <div class="feature feature-inline animated fadeInUp mb-0" data-animate="fadeInUp" data-delay="0.6" style="visibility: visible; animation-delay: 0.6s;">
@@ -113,7 +117,7 @@ routable: true
                                 <em class="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div class="feature-text">
-                                <p>Assist industrial firms and companies in building their information technology infrastructure. </p>
+                                <p style="color:#9cb1d8">Assist industrial firms and companies in building their information technology infrastructure. </p>
                             </div>
                         </div>
                         <div class="feature feature-inline animated fadeInUp mb-0" data-animate="fadeInUp" data-delay="0.7" style="visibility: visible; animation-delay: 0.7s;">
@@ -121,7 +125,7 @@ routable: true
                                 <em class="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div class="feature-text">
-                                <p>Being an active research facilitator to promote critical innovation.</p>
+                                <p style="color:#9cb1d8">Being an active research facilitator to promote critical innovation.</p>
                             </div>
                         </div>
                         <div class="feature feature-inline animated fadeInUp mb-0" data-animate="fadeInUp" data-delay="0.8" style="visibility: visible; animation-delay: 0.8s;">
@@ -129,7 +133,7 @@ routable: true
                                 <em class="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div class="feature-text">
-                                <p>Educational services through framework of training and collaboration. </p>
+                                <p style="color:#9cb1d8">Educational services through framework of training and collaboration. </p>
                             </div>
                         </div>
                         <div class="feature feature-inline animated fadeInUp" data-animate="fadeInUp" data-delay="0.8" style="visibility: visible; animation-delay: 0.8s;">
@@ -137,7 +141,7 @@ routable: true
                                 <em class="icon icon-xs icon-circle fas fa-check"></em>
                             </div>
                             <div class="feature-text">
-                                <p>Employing passionate and creative teams to deliver meticulous results.</p>
+                                <p style="color:#9cb1d8">Employing passionate and creative teams to deliver meticulous results.</p>
                             </div>
                         </div>
                         <div class="text-center text-sm-left animated fadeInUp" data-animate="fadeInUp" data-delay="0.9" style="visibility: visible; animation-delay: 0.9s;">
@@ -149,7 +153,7 @@ routable: true
         </div>
     </div>
     </section>
-   <section class="" id="value">
+   <section id="value">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-lg-6">
@@ -166,32 +170,28 @@ routable: true
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature feature-s6 feature-s6-1 animated fadeInUp" data-animate="fadeInUp" data-delay="0.3" style="visibility: visible; animation-delay: 0.3s;">
                         <div class="feature-text">
-                            <h5 class="title title-sm ttu" style="color:#f8aa38">Title</h5>
-                            <p style="color:#9cb1d8">Technology is more than an engineering term. For us it is a passion, a motivation to learn and a flexible tool to build a better future.</p>
+                            <p style="color:#9cb1d8"><span style="color:#f8aa38">Technology is more than an engineering term.</span> For us it is a passion, a motivation to learn and a flexible tool to build a better future.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature feature-s6 feature-s6-2 animated fadeInUp" data-animate="fadeInUp" data-delay="0.4" style="visibility: visible; animation-delay: 0.4s;">
                         <div class="feature-text">
-                            <h5 class="title title-sm ttu"style="color:#f8aa38">Title</h5>
-                            <p style="color:#9cb1d8">Building customer relationships based on trust, transparency, quality services, commitment and timely delivery.</p>
+                            <p style="color:#9cb1d8"><span style="color:#f8aa38">Building customer relationships</span> based on trust, transparency, quality services, commitment and timely delivery.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature feature-s6 feature-s6-3 animated fadeInUp" data-animate="fadeInUp" data-delay="0.5" style="visibility: visible; animation-delay: 0.5s;">
                         <div class="feature-text">
-                            <h5 class="title title-sm ttu"style="color:#f8aa38">Title</h5>
-                            <p style="color:#9cb1d8">OBeing open minded to innovative ideas which can create a positive impact.</p>
+                            <p style="color:#9cb1d8">Being open minded to <span style="color:#f8aa38">innovative</span> ideas which can create a positive impact.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="feature feature-s6 feature-s6-4 animated fadeInUp" data-animate="fadeInUp" data-delay="0.6" style="visibility: visible; animation-delay: 0.6s;">
                         <div class="feature-text">
-                            <h5 class="title title-sm ttu"style="color:#f8aa38">Title</h5>
-                            <p style="color:#9cb1d8">Education is the key to positive change and we are determined to lead the way. </p>
+                            <p style="color:#9cb1d8"><span style="color:#f8aa38">Education</span> is the key to positive change and we are determined to lead the way. </p>
                         </div>
                     </div>
                 </div>
@@ -205,6 +205,107 @@ routable: true
                 <img src="project/themes/noir/assets/third-party-styles/images/value.png" alt="value" />
             </div>
         </div>
+    </div>
+</section>
+
+<section class="section">
+ <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <div class="section-head section-head-s2">
+                        <h2 class="title title-xl animated fadeInUp" data-animate="fadeInUp" data-delay="0.1" title="Mindimpulse" style="visibility: visible; animation-delay: 0.1s; color:#97afd5; font-size:4rem">Our Services</h2>
+                        <h6 style="color:#007bff; margin-top:-1.4rem">At MindImpulse, We Provide: </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
+        <!-- Block @s -->
+            <div class="row features-list flex-wrap gutter-vr-30px">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-1 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-1">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">Mobile App Development</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-2 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-2">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">Web And CMS Development</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-3 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-3">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">E-Commerce Cross Platforms</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-4 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-4">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">Mobile Game Development</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+             <div class="row features-list flex-wrap gutter-vr-30px">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-1 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-1">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">IT Services</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-2 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-2">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">Hire Dedicated Developers</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-3 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-3">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">TV App Development</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature feature-s1 feature-s1-4 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
+                        <div class="feature-icon feature-icon-s5 feature-icon-s5-4">
+                            <em class="icon fas fa-check"></em>
+                        </div>
+                        <div class="feature-text feature-text-s1">
+                            <span class="title-xs-alt title-mid">Blockchain Technology</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .block @e -->
     </div>
 </section>
 
