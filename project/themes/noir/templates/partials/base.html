@@ -45,8 +45,8 @@
                             <!-- Logo @s -->
                             <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
                                 <a href="./" class="logo-link">
-                                    <img class="logo-dark" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo" />
-                                    <img class="logo-light" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo" />
+                                    <img class="logo-dark" src="https://krita.org/wp-content/uploads/2019/04/intel-logo.png" srcset="https://krita.org/wp-content/uploads/2019/04/intel-logo.png 2x" alt="logo"/>
+                                    <img class="logo-light" src="https://krita.org/wp-content/uploads/2019/04/intel-logo.png" srcset="https://krita.org/wp-content/uploads/2019/04/intel-logo.png 2x" alt="logo" style="height: 50px !important;"/>
                                 </a>
                             </div>
 
@@ -174,13 +174,37 @@
     </main>
 
 
-        <footer class="text-center pl-16 pr-16 pt-6 pb-16">
-            <!-- {% block footer %}
-                <div class="text-xs uppercase">
-                    {{ __('site_powered_by_flextype')|raw }}
-                </div>
-            {% endblock %} -->
-        </footer>
+    <footer class="nk-footer">
+        <div class="section section-footer section-m tc-light bg-transparent ov-h has-ovm">
+            <div class="container">
+                <!-- Block @s -->
+                <div class="nk-block block-footer">
+                    <div class="row">
+                        <div class="col">
+                            <div class="wgs wgs-text text-center mb-3">
+                                <ul class="social pdb-l justify-content-center">
+                                    <li><a href="#"><em class="social-icon fab fa-facebook-f"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-twitter"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-youtube"></em></a></li>
+                                    <li><a href="#"><em class="social-icon fab fa-github"></em></a></li>
+                                </ul>
+                                <a href="./" class="footer-logo">
+                                    <img src="https://krita.org/wp-content/uploads/2019/04/intel-logo.png" srcset="https://krita.org/wp-content/uploads/2019/04/intel-logo.png" alt="logo" 
+                                    style="max-width: 100px;
+                                    height: auto;
+                                    margin: auto;">
+                                </a>
+                                <div class="copyright-text copyright-text-s3 pdt-m">
+                                    <p><span class="d-sm-block">Copyright © 2021, MindImpulse. All Rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .block @e -->
+            </div>
+            <div class="nk-ovm shape-s"></div>
+        </div>
+    </footer>
 
         {% if flextype.registry.has('assets.site.js') %}
             {% for js in flextype.registry.get('assets.site.js') %}
