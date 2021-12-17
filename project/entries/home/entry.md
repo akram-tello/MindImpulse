@@ -101,17 +101,26 @@ $(document).ready(function(){
                 </div>
             </div>
         </div>
-        <!-- <div class="carousel-item">
-             <div class="container">
-                <div class="row">
-                    <div class="col">
+        <div class="carousel-item">
+             <div class="row h-100">
+                <div class="container h-100 h-50vh">
+                    <div class="row h-100">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 mt-auto mb-auto ml-md-auto mr-md-auto">
+                            <h1 class="slide-title">Top Mobile App Development Company </h1>
+                            <p class="slide-subtitle">We power the best mobile app development services on the web! Our work is coded to
+                                perfection and structured to drive results.</p>
+                            <div class="btn btn-md btn-thin btn-auto btn-primary btn-round no-change">
+                                <a class="text-white text-decor-none" tabindex="0">Let's build</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 main-slide3 d-none-mobile">
+                            <div class="box_01 bulb1 "></div>
+                            <div class="box_02 bulb2"></div>
+                        </div>
                     </div>
-                    <div class="col">
-                      <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/slide-images-01.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
-                      </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -150,7 +159,7 @@ $(document).ready(function(){
             <div class="row align-items-center justify-content-center justify-content-xl-between gutter-vr-30px">
                 <div class="col-xxl-5 col-xl-6 col-lg-8">
                   <div class="gfx py-4 animated fadeInUp" data-animate="fadeInUp" data-delay="0.2" style="visibility: visible; animation-delay: 0.2s;">
-                      <img src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/images/ai-development.png" alt="gfx">
+                      <img src="/project/themes/noir/assets/third-party-styles/images/20061.png" alt="gfx" style="border-radius: 15px">
                   </div>
                 </div>
                 <div class="col-xxl-7 col-xl-6 col-lg-8">
