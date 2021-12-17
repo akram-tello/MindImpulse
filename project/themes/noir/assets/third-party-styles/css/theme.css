@@ -1,7 +1,63 @@
-/*!
-Template :	ICOCrypto @by Softnio
-Theme	 :  Default
-Version   :  1.9.3
-Updated   :  05/05/2021 
-*/
-/*! WRITE YOUR CUSTOM STYLE **/
+.bg-blue {
+    background-color: #c1d9ff !important;
+}
+.icon-cr {
+    box-shadow: 0 0 14px -5px #eef3fc;
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+}
+.text-yellow {
+    color: #f8aa38 !important;
+}
+.text-blue-muted {
+    color: #305082 !important;
+}
+.text-light-blue {
+    color: #97afd5 !important;
+}
+.text-blue {
+    color: #007bff !important;
+}
+.text-red {
+    color: #f42f54 !important;
+}
+.text-gray {
+    color: #53555a !important;
+}
+.title-sm {
+    font-size: 1rem !important;
+}
+
+.main-slide1 {
+    background-image: url(https://www.tekrevol.com/assets/images-new/slide-images-01.webp);
+    width: 517px;
+    height: 710px;
+    margin-top: 65px;
+    position: relative;
+    left: 60px;
+    background-repeat: no-repeat;
+}
+.box_01 {
+    background: url(https://www.tekrevol.com/assets/images-new/sprite_small.png)
+        no-repeat 0 -107px;
+    width: 43px;
+    height: 44px;
+    margin-left: -140px;
+    margin-top: 140px;
+    transform: translateX(46.4%) translateY(22.6%);
+}
+.box_02 {
+    background: url(https://www.tekrevol.com/assets/images-new/sprite_small.png)
+        no-repeat 0 -2px;
+    width: 93px;
+    height: 84px;
+    margin-left: -15px;
+    transform: translateX(46.4%) translateY(22.6%);
+}
