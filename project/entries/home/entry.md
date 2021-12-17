@@ -146,7 +146,7 @@ $(document).ready(function(){
             <div class="nk-block">
                 <div class="row justify-content-between align-items-center gutter-vr-40px">
                     <div class="col-lg-8">
-                    <h4 class="title title-xl title-s1 tc-primary animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s; color:#007bff !important">Our Vision</h4>
+                    <h4 class="title title-xl title-s1 tc-primary animated fadeInUp text-yellow" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s;">Our Vision</h4>
                         <div class="nk-block-text">
                             <h4 class="animated fadeInUp" data-animate="fadeInUp" data-delay="0.3" style="visibility: visible; animation-delay: 0.3s; color:#becfea">To redefine the boundaries of engineering applications by being a meticulous product engineering company</h4>
                         </div>
@@ -163,7 +163,7 @@ $(document).ready(function(){
                   </div>
                 </div>
                 <div class="col-xxl-7 col-xl-6 col-lg-8">
-                <h4 class="title title-xl title-s1 tc-primary animated fadeInUp" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s; color:#007bff !important">Our Mission</h4>
+                <h4 class="title title-xl title-s1 tc-primary animated fadeInUp text-yellow" data-animate="fadeInUp" data-delay=".2" style="visibility: visible; animation-delay: 0.2s; ">Our Mission</h4>
                     <div class="nk-block-text">
                      <p style="color:#becfea">To provide new innovative technological solutions through:</p>
                         <div class="feature feature-inline animated fadeInUp mb-0" data-animate="fadeInUp" data-delay="0.4" style="visibility: visible; animation-delay: 0.4s;">
