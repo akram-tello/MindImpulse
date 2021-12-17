@@ -36,7 +36,7 @@
 }
 
 .main-slide1 {
-    background-image: url(https://www.tekrevol.com/assets/images-new/slide-images-01.webp);
+    background-image: url(/project/themes/noir/assets/third-party-styles/images/slide-images-01.webp);
     width: 517px;
     height: 710px;
     margin-top: 65px;
@@ -45,7 +45,7 @@
     background-repeat: no-repeat;
 }
 .box_01 {
-    background: url(https://www.tekrevol.com/assets/images-new/sprite_small.png)
+    background: url(/project/themes/noir/assets/third-party-styles/images/sprite_small.png)
         no-repeat 0 -107px;
     width: 43px;
     height: 44px;
@@ -54,7 +54,7 @@
     transform: translateX(46.4%) translateY(22.6%);
 }
 .box_02 {
-    background: url(https://www.tekrevol.com/assets/images-new/sprite_small.png)
+    background: url(/project/themes/noir/assets/third-party-styles/images/sprite_small.png)
         no-repeat 0 -2px;
     width: 93px;
     height: 84px;

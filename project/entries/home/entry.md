@@ -59,9 +59,6 @@ $(document).ready(function(){
 });
 </script>
 
-<style>
-   
-</style>
 <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -89,7 +86,7 @@ $(document).ready(function(){
                 <div class="row">
                     <div class="col"></div>
                     <div class="col">
-                        <img class="d-block w-100" src="https://www.tekrevol.com/assets/images-new/slide-images-03.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+                        <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/slide-images-03.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
                     </div>
                 </div>
             </div>
@@ -100,7 +97,7 @@ $(document).ready(function(){
                     <div class="col">
                     </div>
                     <div class="col">
-                      <img class="d-block w-100" src="https://www.tekrevol.com/assets/images-new/slide-images-01.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+                      <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/slide-images-01.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
                       </div>
                 </div>
             </div>
