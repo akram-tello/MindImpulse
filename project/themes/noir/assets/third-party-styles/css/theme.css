@@ -44,6 +44,16 @@
     left: 60px;
     background-repeat: no-repeat;
 }
+.main-slide2{
+    background-image: url(/project/themes/noir/assets/third-party-styles/images/slide-images-03.webp);
+    width: 517px;
+    height: 710px;
+    /* margin-top: -50px; */
+    position: relative;
+    left: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .box_01 {
     background: url(/project/themes/noir/assets/third-party-styles/images/sprite_small.png)
         no-repeat 0 -107px;
@@ -60,4 +70,18 @@
     height: 84px;
     margin-left: -15px;
     transform: translateX(46.4%) translateY(22.6%);
+}
+
+.slide-title{
+    color: #fff;
+    text-transform: capitalize;
+}
+.slide-subtitle{
+    color: #fff;
+    margin: 20px 0;
+}
+
+.text-decor-none{
+    text-decoration: none !important;
+
 }

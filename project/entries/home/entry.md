@@ -66,11 +66,11 @@ $(document).ready(function(){
                 <div class="container h-100">
                     <div class="row h-100">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-6 mt-auto mb-auto ml-md-auto mr-md-auto">
-                            <h1>Top Mobile App Development Company </h1>
-                            <p>We power the best mobile app development services on the web! Our work is coded to
+                            <h1 class="slide-title">Top Mobile App Development Company </h1>
+                            <p class="slide-subtitle">We power the best mobile app development services on the web! Our work is coded to
                                 perfection and structured to drive results.</p>
                             <div class="btn btn-md btn-thin btn-auto btn-primary btn-round no-change">
-                                <a class="text-white" tabindex="0">Let's build</a>
+                                <a class="text-white text-decor-none" tabindex="0">Let's build</a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-10 col-lg-6 main-slide1">
@@ -82,11 +82,21 @@ $(document).ready(function(){
             </div>
         </div>
         <div class="carousel-item">
-             <div class="container">
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col">
-                        <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/slide-images-03.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+            <div class="row h-100">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 mt-auto mb-auto ml-md-auto mr-md-auto mr-md-0 ml-lg-0">
+                            <h1 class="slide-title">Primed For The Future</h1>
+                            <p class="slide-subtitle">From AI to wearable devices, we leverage emerging technologies to transform lives and
+                                redefine industry standards.
+                            </p>
+                            <div class="btn btn-md btn-thin btn-auto btn-primary btn-round no-change">
+                                <a class="text-white text-decor-none" tabindex="0">Let's build</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 main-slide2">
+                           <!-- <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/slide-images-03.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" /> -->
+                        </div>
                     </div>
                 </div>
             </div>
