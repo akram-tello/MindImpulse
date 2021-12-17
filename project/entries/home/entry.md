@@ -97,14 +97,14 @@ $(document).ready(function(){
         font-size: 1rem !important;
     }
 </style>
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="container">
                 <div class="row">
                     <div class="col"></div>
                     <div class="col">
-                        <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/drone.png" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+                        <img class="d-block w-100" src="https://www.tekrevol.com/assets/images-new/slide-images-01.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
                     </div>
                 </div>
             </div>
@@ -114,21 +114,22 @@ $(document).ready(function(){
                 <div class="row">
                     <div class="col"></div>
                     <div class="col">
-                        <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/drone.png" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+                        <img class="d-block w-100" src="https://www.tekrevol.com/assets/images-new/slide-images-03.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="carousel-item">
+        <div class="carousel-item">
              <div class="container">
                 <div class="row">
                     <div class="col">
-                        <img class="d-block w-100" src="https://www.hyperlinkinfosystem.com/assets/frontend_assets/images/ai-development.png" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
                     </div>
-                    <div class="col"></div>
+                    <div class="col">
+                      <img class="d-block w-100" src="https://www.tekrevol.com/assets/images-new/slide-images-01.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+                      </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
