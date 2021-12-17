@@ -54,6 +54,16 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.main-slide3{
+    background-image: url(/project/themes/noir/assets/third-party-styles/images/drone.png);
+    width: 517px;
+    height: 710px;
+    margin-top: 65px;
+    position: relative;
+    left: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .box_01 {
     background: url(/project/themes/noir/assets/third-party-styles/images/sprite_small.png)
         no-repeat 0 -107px;
