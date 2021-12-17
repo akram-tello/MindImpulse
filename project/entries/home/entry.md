@@ -60,51 +60,26 @@ $(document).ready(function(){
 </script>
 
 <style>
-    .bg-blue{
-        background-color: #c1d9ff !important;
-    }
-    .icon-cr{
-        box-shadow: 0 0 14px -5px #eef3fc;
-        height: 60px;
-        width: 60px;
-        background-color: #fff;
-        display: inline-block;
-        padding: 15px 0;
-        text-align: center;
-        border-radius: 50%;
-        margin-right: 20px;
-        position: relative;
-    }
-    .text-yellow{
-        color: #f8aa38 !important;
-    }
-    .text-blue-muted{
-        color: #305082 !important;
-    }
-    .text-light-blue{
-        color: #97afd5 !important;
-    }
-    .text-blue{
-        color: #007bff !important;
-    }
-    .text-red{
-        color: #f42f54 !important;
-    }
-    .text-gray{
-        color: #53555a !important;
-    }
-    .title-sm{
-        font-size: 1rem !important;
-    }
+   
 </style>
 <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="container">
-                <div class="row">
-                    <div class="col"></div>
-                    <div class="col">
-                        <img class="d-block w-100" src="https://www.tekrevol.com/assets/images-new/slide-images-01.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" />
+            <div class="row h-100">
+                <div class="container h-100">
+                    <div class="row h-100">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 mt-auto mb-auto ml-md-auto mr-md-auto">
+                            <h1>Top Mobile App Development Company </h1>
+                            <p>We power the best mobile app development services on the web! Our work is coded to
+                                perfection and structured to drive results.</p>
+                            <div class="btn btn-md btn-thin btn-auto btn-primary btn-round no-change">
+                                <a class="text-white" tabindex="0">Let's build</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 main-slide1">
+                            <div class="box_01 bulb1 "></div>
+                            <div class="box_02 bulb2"></div>
+                        </div>
                     </div>
                 </div>
             </div>
