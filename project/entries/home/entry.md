@@ -63,7 +63,7 @@ $(document).ready(function(){
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="row h-100">
-                <div class="container h-100">
+                <div class="container h-100 h-50vh">
                     <div class="row h-100">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-6 mt-auto mb-auto ml-md-auto mr-md-auto">
                             <h1 class="slide-title">Top Mobile App Development Company </h1>
@@ -73,7 +73,7 @@ $(document).ready(function(){
                                 <a class="text-white text-decor-none" tabindex="0">Let's build</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 main-slide1">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 main-slide1 d-none-mobile">
                             <div class="box_01 bulb1 "></div>
                             <div class="box_02 bulb2"></div>
                         </div>
@@ -83,7 +83,7 @@ $(document).ready(function(){
         </div>
         <div class="carousel-item">
             <div class="row h-100">
-                <div class="container h-100">
+                <div class="container h-100 h-50vh">
                     <div class="row h-100">
                         <div class="col-12 col-sm-12 col-md-10 col-lg-6 mt-auto mb-auto ml-md-auto mr-md-auto mr-md-0 ml-lg-0">
                             <h1 class="slide-title">Primed For The Future</h1>
@@ -94,14 +94,14 @@ $(document).ready(function(){
                                 <a class="text-white text-decor-none" tabindex="0">Let's build</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 main-slide2">
+                        <div class="col-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 main-slide2 d-none-mobile">
                            <!-- <img class="d-block w-100" src="project/themes/noir/assets/third-party-styles/images/slide-images-03.webp" title="Artificial Intelligence (AI)" alt="artificial intelligence (ai)" /> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
              <div class="container">
                 <div class="row">
                     <div class="col">
@@ -111,7 +111,7 @@ $(document).ready(function(){
                       </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
