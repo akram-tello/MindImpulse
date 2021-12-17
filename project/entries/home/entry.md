@@ -293,7 +293,7 @@ $(document).ready(function(){
         <!-- Block @s -->
             <div class="row features-list flex-wrap gutter-vr-30px">
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-1 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="feature feature-s1 feature-s1-1 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-1">
                         <div class="icon-cr">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_22" x="0px" y="0px" viewBox="0 0 329.591 329.591" style="enable-background:new 0 0 329.591 329.591; margin-left: 10px;" xml:space="preserve" width="40px" height="40px" fill="#a4c639">
@@ -312,7 +312,7 @@ $(document).ready(function(){
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-2 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                    <div class="feature feature-s1 feature-s1-2 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-2">
                             <div class="icon-cr">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_2" x="0px" y="0px" viewBox="0 0 52.226 52.226" style="enable-background:new 0 0 52.226 52.226; margin-left: 10px;" fill="#000" xml:space="preserve" width="40px" height="40px">
@@ -329,7 +329,7 @@ $(document).ready(function(){
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-3 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
+                    <div class="feature feature-s1 feature-s1-3 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-3">
                             <div class="icon-cr">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 511 511" style="enable-background:new 0 0 511 511;margin-left: 10px;" xml:space="preserve" width="40px" height="40px" fill="#1094f1">
@@ -353,7 +353,7 @@ $(document).ready(function(){
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-4 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
+                    <div class="feature feature-s1 feature-s1-4 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-4">
                             <div class="icon-cr">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_111" x="0px" y="0px" viewBox="0 0 495.98 495.98" style="enable-background:new 0 0 495.98 495.98;margin-left: 10px;" xml:space="preserve" width="40px" height="40px" fill="#a241bb">
@@ -379,7 +379,7 @@ $(document).ready(function(){
             </div><!-- .row -->
              <div class="row features-list flex-wrap gutter-vr-30px">
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-1 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="feature feature-s1 feature-s1-1 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-1">
                             <div class="icon-cr">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_7" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; margin-left: 10px;" xml:space="preserve" width="40px" height="40px">
@@ -412,7 +412,7 @@ $(document).ready(function(){
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-2 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
+                    <div class="feature feature-s1 feature-s1-2 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-2">
                             <div class="icon-cr">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_3" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001; margin-left: 10px" xml:space="preserve" width="40px" height="40px" fill="#0caec1">
@@ -460,7 +460,7 @@ $(document).ready(function(){
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-3 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
+                    <div class="feature feature-s1 feature-s1-3 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".6" style="visibility: visible; animation-delay: 0.6s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-3">
                             <div class="icon-cr">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_6" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512; margin-left: 10px" xml:space="preserve" width="40px" height="40px">
@@ -487,7 +487,7 @@ $(document).ready(function(){
                     </div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="feature feature-s1 feature-s1-4 boxed boxed-xs bg-blue bordered animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
+                    <div class="feature feature-s1 feature-s1-4 boxed boxed-xs bg-blue hover-box animated fadeInUp" data-animate="fadeInUp" data-delay=".7" style="visibility: visible; animation-delay: 0.7s;">
                         <div class="feature-icon feature-icon-s5 feature-icon-s5-4">
                             <div class="icon-cr">
                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_8" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999l; margin-left: 10px" xml:space="preserve" width="40px" height="40px" fill="#cb1ac5">

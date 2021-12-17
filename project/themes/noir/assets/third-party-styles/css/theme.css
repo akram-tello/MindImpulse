@@ -95,6 +95,9 @@
     text-decoration: none !important;
 }
 
+.hover-box:hover{
+    box-shadow: 3px 4px 15px 0 #f42f54;
+}
 /*media mobile screen only*/
 @media only screen and (max-width: 767px) {
     .d-none-mobile {
